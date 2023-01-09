@@ -1,0 +1,26 @@
+header {
+    background: rgb(255, 224, 229);
+}
+
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+    color: #404040;
+	box-shadow: 0 1px 7px 0 rgb(128, 128, 128);
+}
+
+nav a {
+    margin: .5em;
+}
+
+nav a.active {
+    color: darkblue;
+    font-weight: bold;
+}
+
+.logo {
+    mix-blend-mode: multiply;
+    width: 100px;
+}
