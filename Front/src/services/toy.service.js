@@ -1,64 +1,43 @@
-
-import { storageService } from './async-storage.service.js'
 import { utilService } from './util.service.js'
+import { httpService } from './http.service.js'
 
 const TOY_KEY = 'toyDB'
+const BASE_URL = 'toy/'
 
 export const toyService = {
     query,
     getById,
     save,
     remove,
-    getEmptyToy
+    getEmptyToy,
+    getDefaultFilter,
+    getToyLabels
 }
 
-const labels = ["On wheels", "Box game", "Art", "Baby", "Doll", "Puzzle", "Outdoor", "Battery Powered"]
-const toys =  [
-    {
-        "_id": "t101",
-        "name": "Talking Tom",
-        "price": 123,
-        "labels": ["Doll", "Battery Powered", "Baby"],
-        "createdAt": 1631031801011,
-        "inStock": true
-    },
-    {
-        "_id": "t102",
-        "name": "Fighting Buzz",
-        "price": 777,
-        "labels": ["Doll", "Battery Powered", "Baby"],
-        "createdAt": 1636931801011,
-        "inStock": true
-    },
-    {
-        "_id": "t103",
-        "name": "Riding Woody",
-        "price": 555,
-        "labels": ["Doll", "Battery Powered", "Baby"],
-        "createdAt": 1631031691011,
-        "inStock": true
-    },
-]
-// saveToStorage(TOY_KEY, toys)
-
-function query() {
-    return storageService.query(TOY_KEY)
+function query(filterBy = getDefaultFilter()) {
+    const queryParams = 
+    `?name=${filterBy.name}&inStock=${filterBy.inStock}&label=${filterBy.label}&sortBy=${filterBy.sortBy}&desc=${filterBy.desc}`
+    return httpService.get(BASE_URL + queryParams)
 }
 
 function getById(toyId) {
-    return storageService.get(TOY_KEY, toyId)
+    return httpService.get(BASE_URL + toyId)
 }
 
 function remove(toyId) {
-    return storageService.remove(TOY_KEY, toyId)
+    return httpService.delete(BASE_URL + toyId)
 }
 
 function save(toy) {
     if (toy._id) {
-        return storageService.put(TOY_KEY, toy)
+        return httpService.put(BASE_URL, toy)
     } else {
-        return storageService.post(TOY_KEY, toy)
+        return httpService.post(BASE_URL, toy)
     }
+}
+
+function getDefaultFilter() {
+return {name: '', inStock: true , label: [], sortBy: '', desc: 1}
 }
 
 function getEmptyToy() {
@@ -71,6 +50,7 @@ function getEmptyToy() {
     }
 }
 
-function saveToStorage(key, val) {
-    localStorage.setItem(key, JSON.stringify(val))
+function getToyLabels() {
+    const labels = ["On wheels", "Box game", "Art", "Baby", "Doll", "Puzzle", "Outdoor", "Battery Powered"]
+    return labels
 }

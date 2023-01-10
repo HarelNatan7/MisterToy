@@ -1,5 +1,6 @@
 import { Link, Navigate, useNavigate, useParams } from "react-router-dom";
 import { useEffect, useRef, useState } from "react"
+import Select from "react-select";
 
 import { toyService } from "../services/toy.service.js"
 import { showSuccessMsg, showErrorMsg } from '../services/event-bus.service.js'
@@ -8,6 +9,8 @@ import { saveToy } from "../store/toy.action.js";
 export function ToyEdit() {
 
     const [toyToEdit, setToyToEdit] = useState(toyService.getEmptyToy())
+    const [selectedOptions, setSelectedOptions] = useState();
+
     const navigate = useNavigate()
     const { toyId } = useParams()
 
@@ -28,10 +31,16 @@ export function ToyEdit() {
     function handleChange({ target }) {
         let { value, name: field, type } = target
         value = (type === 'number') ? +value : value
-        // console.log('toyToAdd:', toyToAdd)
         setToyToEdit(prevToy => {
             return { ...prevToy, [field]: value }
         })
+    }
+
+    function handleSelect(data) {
+        setSelectedOptions(data)
+        const labelsToSet = data.length ? data.map(i => i.value) : []
+        console.log(labelsToSet)
+        setToyToEdit((prevToy) => ({ ...prevToy, labels: labelsToSet}))
     }
 
     function onAddToy(ev) {
@@ -67,6 +76,14 @@ export function ToyEdit() {
                 value={toyToEdit.price}
                 onChange={handleChange}
                 placeholder="Toy Price" />
+
+                <Select
+                 options={toyService.getToyLabels().map((label) => ({ value: label, label }))}
+                 placeholder="Select labels"
+                 value={selectedOptions}
+                 onChange={handleSelect}
+                 isMulti={true}
+                 />
 
             <button>Save Toy</button>
         </form>

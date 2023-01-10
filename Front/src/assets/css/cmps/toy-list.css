@@ -1,4 +1,6 @@
 .toy-list {
     margin: 20px 70px;
-    gap: 17px;
+    gap: 24px;
+    flex-wrap: wrap;
+    /* justify-content: center; */
 }

@@ -1,14 +1,20 @@
 header {
-    background: rgb(255, 224, 229);
+    background: rgb(10, 10, 10);
 }
 
 .app-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 70px;
     padding: 20px 15px;
-    color: #404040;
-	box-shadow: 0 1px 7px 0 rgb(128, 128, 128);
+    color: #fff;
+    box-shadow: 0 1px 7px 0 rgb(128, 128, 128);
+}
+
+.app-header h1 {
+    font-size: 4rem;
+    color: gold;
 }
 
 nav a {
@@ -16,11 +22,11 @@ nav a {
 }
 
 nav a.active {
-    color: darkblue;
+    color: lightpink;
     font-weight: bold;
 }
 
 .logo {
-    mix-blend-mode: multiply;
+    /* mix-blend-mode: multiply; */
     width: 100px;
 }

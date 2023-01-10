@@ -1,4 +1,6 @@
 import { useEffect, useRef, useState } from "react"
+import Select from "react-select";
+
 import { toyService } from "../services/toy.service.js"
 import { utilService } from "../services/util.service.js"
 
@@ -6,6 +8,7 @@ import { utilService } from "../services/util.service.js"
 export function ToyFilter({ onSetFilterBy }) {
 
     const [filterByToEdit, setFilterByToEdit] = useState(toyService.getDefaultFilter())
+    const [selectedOptions, setSelectedOptions] = useState();
 
     onSetFilterBy = useRef(utilService.debounce(onSetFilterBy, 500))
 
@@ -14,39 +17,65 @@ export function ToyFilter({ onSetFilterBy }) {
     }, [filterByToEdit])
 
     function handleChange({ target }) {
-        let { value, name: field, type } = target
+        let { value, name: field, type, checked } = target
         value = (type === 'number') ? +value : value
+        value = (type === 'checkbox' && field === 'inStock') ? checked : value
+        value = (type === 'checkbox' && field === 'desc') ? (checked ? -1 : 1) : value
+        // value = (type === 'checkbox' && field === 'inStock') ? (checked ? true : false) : value
         setFilterByToEdit((prevFilter) => {
             return { ...prevFilter, [field]: value }
         })
     }
 
+    function handleSelect(labels) {
+        setSelectedOptions(labels)
+        const labelsToSet = labels.length ? labels.map(i => i.value) : []
+        console.log(labelsToSet)
+        setFilterByToEdit((prevFilter) => ({ ...prevFilter, label: labelsToSet }))
+    }
+
     return <section className="toys-filter">
-        <h2>Filter Your Toys</h2>
+        <h2>Filter Them: </h2>
         <form className="filter-form">
-            <label htmlFor="txt">By Txt:</label>
-            <input type="text"
-                id="txt"
-                name="txt"
-                placeholder="By Text"
-                value={filterByToEdit.txt}
-                onChange={handleChange}
-            />
+            <div className="filters-container">
+                <label htmlFor="name">By Name:
+                    <input type="text"
+                        id="name"
+                        name="name"
+                        placeholder="By Text"
+                        value={filterByToEdit.name}
+                        onChange={handleChange}
+                    />
+                </label>
 
-            <label htmlFor="status">By Status: </label>
-            <select name="status" id="status" onChange={handleChange}>
-                <option value="">All</option>
-                <option value="active">Active</option>
-                <option value="done">Done</option>
-            </select>
+                <label htmlFor="inStock">In Stock:
+                    <input type="checkbox" name="inStock" id="inStock" onChange={handleChange} value={filterByToEdit.inStock} />
+                </label>
 
-            <label htmlFor="sort">Sort the toys by</label>
-            <select id="sort" name="sortBy" onChange={handleChange}>
-                <option value="">Choose</option>
-                <option value="txt">Text</option>
-                <option value="date">Date</option>
-                <option value="urgency">Urgency</option>
-            </select>
+                <Select
+                    options={toyService.getToyLabels().map((label) => ({ value: label, label }))}
+                    placeholder="Select labels"
+                    value={selectedOptions}
+                    onChange={handleSelect}
+                    isMulti={true}
+                />
+            </div>
+            <hr />
+            <h2>Sort Them:</h2>
+            <div className="sort-container">
+
+                <label htmlFor="sort">Sort By:
+                    <select id="sort" name="sortBy" onChange={handleChange} value={filterByToEdit.sortBy}>
+                        <option value="">Choose</option>
+                        <option value="name">Name</option>
+                        <option value="created">Created At</option>
+                        <option value="price">Price</option>
+                    </select>
+                </label>
+                <label htmlFor="desc">Descending:
+                    <input name="desc" id="desc" type="checkbox" value={filterByToEdit.desc} onChange={handleChange} />
+                </label>
+            </div>
 
         </form>
 

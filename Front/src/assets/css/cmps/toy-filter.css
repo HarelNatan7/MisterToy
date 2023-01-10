@@ -1,0 +1,10 @@
+.filters-container {
+    display: flex;
+    gap: 27px;
+    align-items: center;
+}
+.sort-container {
+    display: flex;
+    gap: 27px;
+    align-items: center;
+}

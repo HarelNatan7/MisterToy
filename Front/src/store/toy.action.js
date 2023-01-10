@@ -1,11 +1,10 @@
 import { toyService } from '../services/toy.service.js'
 import { store } from './store.js'
-import { ADD_TOY, REMOVE_TOY, SET_TOYS, UPDATE_TOY } from './toy.reducer.js'
+import { ADD_TOY, REMOVE_TOY, SET_FILTER, SET_TOYS, UPDATE_TOY } from './toy.reducer.js'
 
-export function loadToys() {
-    return toyService.query()
+export function loadToys(filterBy) {
+    return toyService.query(filterBy)
         .then(toys => {
-            console.log('toys:', toys)
             store.dispatch({ type: SET_TOYS, toys })
         })
         .catch(err => {
@@ -38,19 +37,6 @@ export function removeToy(toyId) {
         })
 }
 
-// export function saveTodo(todo) {
-//     const type = (todo._id) ? UPDATE_TODO : ADD_TODO
-//     return todoService.save(todo)
-//         .then(savedTodo => {
-//             store.dispatch({ type, todo: savedTodo })
-//             return savedTodo
-//         })
-//         .catch(err => {
-//             console.error('Cannot save todo:', err)
-//             throw err
-//         })
-// }
-
-// export function filterTodos(filterBy) {
-//     store.dispatch({ type: SET_FILTER, filterBy })
-// }
+export function filterToys(filterBy) {
+    store.dispatch({ type: SET_FILTER, filterBy })
+}
