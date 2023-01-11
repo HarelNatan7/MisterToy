@@ -9,6 +9,7 @@
 
 /* Views */
 @import './views/home-page.css';
+@import './views/about-us.css';
 @import './views/toy-index.css';
 @import './views/toy-details.css';
 

@@ -57,38 +57,5 @@
     "createdAt": 1673334592159,
     "inStock": true,
     "_id": "yIjPJ"
-  },
-  {
-    "name": "AASFAF",
-    "price": 51513,
-    "labels": [
-      "Box game"
-    ],
-    "createdAt": 1673352426105,
-    "inStock": true,
-    "_id": "syEY5"
-  },
-  {
-    "name": "ABBA",
-    "price": "100",
-    "labels": [
-      "On wheels",
-      "Baby"
-    ],
-    "createdAt": 1673354968161,
-    "inStock": true,
-    "_id": "Wj2Bn"
-  },
-  {
-    "name": "Oren",
-    "price": "77777",
-    "labels": [
-      "Baby",
-      "Doll",
-      "Puzzle"
-    ],
-    "createdAt": 1673355211931,
-    "inStock": true,
-    "_id": "G5hwB"
   }
 ]

@@ -1,12 +1,18 @@
 import { Link, Navigate, useNavigate, useParams } from "react-router-dom";
 import { useEffect, useRef, useState } from "react"
 import Select from "react-select";
+import { Formik, Form, Field } from 'formik';
+import * as Yup from 'yup';
 
 import { toyService } from "../services/toy.service.js"
 import { showSuccessMsg, showErrorMsg } from '../services/event-bus.service.js'
 import { saveToy } from "../store/toy.action.js";
 
 export function ToyEdit() {
+
+  
+
+    ////////////////////////////////////////////////////////////////////////////////////
 
     const [toyToEdit, setToyToEdit] = useState(toyService.getEmptyToy())
     const [selectedOptions, setSelectedOptions] = useState();
@@ -40,7 +46,7 @@ export function ToyEdit() {
         setSelectedOptions(data)
         const labelsToSet = data.length ? data.map(i => i.value) : []
         console.log(labelsToSet)
-        setToyToEdit((prevToy) => ({ ...prevToy, labels: labelsToSet}))
+        setToyToEdit((prevToy) => ({ ...prevToy, labels: labelsToSet }))
     }
 
     function onAddToy(ev) {
@@ -55,38 +61,72 @@ export function ToyEdit() {
             })
     }
 
+    const SignupSchema = Yup.object().shape({
+        name: Yup.string()
+            .min(2, 'Too Short!')
+            .max(20, 'Too Long!')
+            .required('Required'),
+        price: Yup.string()
+            .min(2, 'Too Short!')
+            .max(4, 'Too Long!')
+            .required('Required'),
+    })
 
+    const h1Props = {
+        style: { color: 'red' },
+        title: 'Hello im a Title'
+    }
+    
     return <section className="toy-edit">
-        <form
-            className="add-toy-form"
-            onSubmit={onAddToy}>
-            <label htmlFor="title">Toy Name: </label>
-            <input required
-                type="text"
-                name="name"
-                id="name"
-                value={toyToEdit.name}
-                onChange={handleChange}
-                placeholder="Toy Name" />
-            <label htmlFor="price">Toy Price: </label>
-            <input required
-                type="text"
-                name="price"
-                id="price"
-                value={toyToEdit.price}
-                onChange={handleChange}
-                placeholder="Toy Price" />
 
-                <Select
-                 options={toyService.getToyLabels().map((label) => ({ value: label, label }))}
-                 placeholder="Select labels"
-                 value={selectedOptions}
-                 onChange={handleSelect}
-                 isMulti={true}
-                 />
+        
+            {/* <h1 title="Hello im an h1" style={{color:'red'}}>Signup</h1> */}
+            <h1 {...h1Props} >Add Toy</h1>
+            <Formik
+                initialValues={{
+                    name: '',
+                    price: ''
+                }}
+                validationSchema={SignupSchema}
+            >
+                {({ errors, touched }) => (
+                    <Form className='name'
+                        onSubmit={onAddToy}>
+                        <Field
+                            name="name"
+                            id="name"
+                            value={toyToEdit.name}
+                            onChange={handleChange}
+                            placeholder="Toy Name"
+                        />
+                        {errors.name && touched.name ? (
+                            <span>{errors.name}</span>
+                        ) : null}
 
-            <button>Save Toy</button>
-        </form>
-        <Link className="nice-link" to="/toy">Cancel</Link>
+                        <Field
+                            name="price"
+                            id="price"
+                            value={toyToEdit.price}
+                            onChange={handleChange}
+                            placeholder="Toy Price"
+                        />
+                        {errors.price && touched.price ? <div>{errors.price}</div> : null}
+
+                        <Select
+                            options={toyService.getToyLabels().map((label) => ({ value: label, label }))}
+                            placeholder="Select labels"
+                            value={selectedOptions}
+                            onChange={handleSelect}
+                            isMulti={true}
+                        />
+
+                        <button>Save Toy</button>
+                    </Form>
+                )}
+            </Formik>
+
+            <Link className="nice-link" to="/toy">Cancel</Link>
+        
+
     </section>
 }

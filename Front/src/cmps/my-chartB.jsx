@@ -2,17 +2,17 @@ import React from 'react';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend, RadialLinearScale } from 'chart.js';
 import { Doughnut, PolarArea } from 'react-chartjs-2';
 
-ChartJS.register(RadialLinearScale,ArcElement, Tooltip, Legend);
+ChartJS.register(RadialLinearScale, ArcElement, Tooltip, Legend);
 
 
+export function MyChartB({ dataMap, getLabelsAmount }) {
 
-export function MyChart() {
     const data = {
-        labels: ["On wheels", "Box game", "Art", "Baby", "Doll", "Puzzle", "Outdoor", "Battery Powered"],
+        labels: Object.keys(getLabelsAmount()),
         datasets: [
             {
-                label: 'Toys Amount',
-                data: [12, 7, 3, 5, 2, 3],
+                label: 'Toys Prices',
+                data: Object.values(dataMap),
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
                     'rgba(54, 162, 235, 0.2)',
@@ -20,6 +20,7 @@ export function MyChart() {
                     'rgba(75, 192, 192, 0.2)',
                     'rgba(153, 102, 255, 0.2)',
                     'rgba(255, 159, 64, 0.2)',
+                    'rgba(269, 140, 205, 0.5)',
                 ],
                 borderColor: [
                     'rgba(255, 99, 132, 1)',
@@ -28,13 +29,15 @@ export function MyChart() {
                     'rgba(75, 192, 192, 1)',
                     'rgba(153, 102, 255, 1)',
                     'rgba(255, 159, 64, 1)',
+                    'rgba(269, 140, 205, 0.5)',
                 ],
                 borderWidth: 2,
             },
         ],
     };
     return (
-        <div style={{width:'60%', margin:'auto'}}>
+        <div style={{ width: '40%', margin: 'auto' }}>
+            <h1>Prices</h1>
             <Doughnut data={data} />
         </div>
     )
