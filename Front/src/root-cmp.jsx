@@ -1,4 +1,4 @@
-import './assets/css/main.css'
+import './assets/css/main.scss'
 
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import { Provider } from 'react-redux';

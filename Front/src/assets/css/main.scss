@@ -1,0 +1,21 @@
+/* Setup */
+@import './setup/variables';
+
+/* @import './setup/fonts'; */
+
+/* Basics */
+@import './basics/base';
+@import './basics/helpers';
+
+/* Views */
+@import './views/home-page';
+@import './views/about-us';
+@import './views/toy-index';
+@import './views/toy-details';
+
+/* Cmps */
+@import './cmps/app-header';
+@import './cmps/user-msg';
+@import './cmps/toy-list';
+@import './cmps/toy-filter';
+@import './cmps/toy-preview';
