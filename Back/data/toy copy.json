@@ -1,26 +1,61 @@
 [
-    {
-        "_id": "t101",
-        "name": "Talking Tom",
-        "price": 123,
-        "labels": ["Doll", "Battery Powered", "Baby"],
-        "createdAt": 1631031801011,
-        "inStock": true
-    },
-    {
-        "_id": "t102",
-        "name": "Fighting Buzz",
-        "price": 777,
-        "labels": ["Doll", "Battery Powered", "Baby"],
-        "createdAt": 1636931801011,
-        "inStock": true
-    },
-    {
-        "_id": "t103",
-        "name": "Riding Woody",
-        "price": 555,
-        "labels": ["Doll", "Battery Powered", "Baby"],
-        "createdAt": 1631031691011,
-        "inStock": true
-    }
+  {
+    "_id": "t102",
+    "name": "Fighting Buzz",
+    "price": 777,
+    "labels": [
+      "Doll",
+      "Battery Powered",
+      "Baby"
+    ],
+    "createdAt": 1636931801011,
+    "inStock": true
+  },
+  {
+    "_id": "t103",
+    "name": "Riding Woody",
+    "price": 220,
+    "labels": [
+      "Doll",
+      "Battery Powered",
+      "Baby"
+    ],
+    "createdAt": 1631031691011,
+    "inStock": true
+  },
+  {
+    "_id": "t101",
+    "name": "Talking Tom",
+    "price": 123,
+    "labels": [
+      "Doll",
+      "Battery Powered",
+      "Baby"
+    ],
+    "createdAt": 1631031801011,
+    "inStock": true
+  },
+  {
+    "name": "Nerf Gun",
+    "price": 300,
+    "labels": [
+      "Outdoor",
+      "Battery Powered"
+    ],
+    "createdAt": 1673334430684,
+    "inStock": true,
+    "_id": "caJmh"
+  },
+  {
+    "name": "Teddy Bear",
+    "price": 420,
+    "labels": [
+      "Box game",
+      "Doll",
+      "On wheels"
+    ],
+    "createdAt": 1673334592159,
+    "inStock": true,
+    "_id": "yIjPJ"
+  }
 ]

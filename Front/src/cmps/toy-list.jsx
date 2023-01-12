@@ -4,7 +4,7 @@ import { ToyPreview } from "./toy-preview"
 
 export function ToyList({ toys, onRemoveToy, onEditToy }) {
 
-    return <section className="toy-list flex">
+    return <section className="toy-list grid">
         {toys.map(toy => <div
          className="toy"
          key={toy._id}>

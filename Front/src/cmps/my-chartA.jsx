@@ -37,7 +37,7 @@ export function MyChartA({ dataMap }) {
     };
     return (
         <div style={{ width: '40%', margin: 'auto' }}>
-            <h1>Amounts</h1>
+            <h1>Our Amounts</h1>
             <Doughnut data={data} />
         </div>
     )

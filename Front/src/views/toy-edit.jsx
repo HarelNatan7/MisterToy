@@ -10,7 +10,7 @@ import { saveToy } from "../store/toy.action.js";
 
 export function ToyEdit() {
 
-  
+
 
     ////////////////////////////////////////////////////////////////////////////////////
 
@@ -72,61 +72,67 @@ export function ToyEdit() {
             .required('Required'),
     })
 
-    const h1Props = {
-        style: { color: 'red' },
-        title: 'Hello im a Title'
-    }
-    
     return <section className="toy-edit">
 
-        
-            {/* <h1 title="Hello im an h1" style={{color:'red'}}>Signup</h1> */}
-            <h1 {...h1Props} >Add Toy</h1>
-            <Formik
-                initialValues={{
-                    name: '',
-                    price: ''
-                }}
-                validationSchema={SignupSchema}
-            >
-                {({ errors, touched }) => (
-                    <Form className='name'
-                        onSubmit={onAddToy}>
-                        <Field
-                            name="name"
-                            id="name"
-                            value={toyToEdit.name}
-                            onChange={handleChange}
-                            placeholder="Toy Name"
-                        />
-                        {errors.name && touched.name ? (
-                            <span>{errors.name}</span>
-                        ) : null}
+        <Formik
+            initialValues={{
+                name: '',
+                price: ''
+            }}
+            validationSchema={SignupSchema}
+        >
+            {({ errors, touched }) => (
+                <Form className='edit-form'
+                    onSubmit={onAddToy}>
+                    <Field
+                        name="name"
+                        id="name"
+                        value={toyToEdit.name}
+                        onChange={handleChange}
+                        placeholder="Toy Name"
+                    />
+                    {errors.name && touched.name ? (
+                        <span>{errors.name}</span>
+                    ) : null}
 
-                        <Field
-                            name="price"
-                            id="price"
-                            value={toyToEdit.price}
-                            onChange={handleChange}
-                            placeholder="Toy Price"
-                        />
-                        {errors.price && touched.price ? <div>{errors.price}</div> : null}
+                    <Field
+                        name="price"
+                        id="price"
+                        value={toyToEdit.price}
+                        onChange={handleChange}
+                        placeholder="Toy Price"
+                    />
+                    {errors.price && touched.price ? <div>{errors.price}</div> : null}
 
+                    <div className="select-container">
                         <Select
                             options={toyService.getToyLabels().map((label) => ({ value: label, label }))}
                             placeholder="Select labels"
                             value={selectedOptions}
                             onChange={handleSelect}
                             isMulti={true}
+                            className="multi-select"
+                            styles={{
+                                control: (baseStyles) => ({
+                                    ...baseStyles,
+                                    borderColor: 'gold',
+                                    // backgroundColor: 'lightyellow',
+                                }),
+                                option: (provided) => ({
+                                    ...provided,
+                                    borderBottom: '1px solid pink',
+                                    color: 'gray',
+                                    padding: 20,
+                                })
+                            }}
                         />
+                    </div>
 
-                        <button>Save Toy</button>
-                    </Form>
-                )}
-            </Formik>
-
-            <Link className="nice-link" to="/toy">Cancel</Link>
-        
+                    <button>Save Toy</button>
+                    <Link className="nice-link" to="/toy">Cancel</Link>
+                </Form>
+            )}
+        </Formik>
 
     </section>
 }

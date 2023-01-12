@@ -1,21 +1,24 @@
 /* Setup */
-@import './setup/variables';
+@import './setup/_variables';
 
 /* @import './setup/fonts'; */
 
 /* Basics */
-@import './basics/base';
-@import './basics/helpers';
+@import './basics/_base';
+@import './basics/_helpers';
+@import './basics/_layout';
+
 
 /* Views */
-@import './views/home-page';
-@import './views/about-us';
-@import './views/toy-index';
-@import './views/toy-details';
+@import './views/_home-page';
+@import './views/_about-us';
+@import './views/_toy-index';
+@import './views/_toy-edit';
+@import './views/_toy-details';
 
 /* Cmps */
-@import './cmps/app-header';
-@import './cmps/user-msg';
-@import './cmps/toy-list';
-@import './cmps/toy-filter';
-@import './cmps/toy-preview';
+@import './cmps/_app-header';
+@import './cmps/_user-msg';
+@import './cmps/_toy-list';
+@import './cmps/_toy-filter';
+@import './cmps/_toy-preview';

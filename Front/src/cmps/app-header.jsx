@@ -14,7 +14,7 @@ export function AppHeader() {
 
     const imgUrl = 'logo.png'
 
-    return <header className="app-header" >
+    return <header className="app-header full main-layout" >
             <UserMsg />
             <img className='logo' src={require(`../assets/img/${imgUrl}`)} />
             <h1>Mister Toy</h1>

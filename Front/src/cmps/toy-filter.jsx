@@ -22,6 +22,7 @@ export function ToyFilter({ onSetFilterBy }) {
         value = (type === 'checkbox' && field === 'inStock') ? checked : value
         value = (type === 'checkbox' && field === 'desc') ? (checked ? -1 : 1) : value
         // value = (type === 'checkbox' && field === 'inStock') ? (checked ? true : false) : value
+        if (!checked) value = ''
         setFilterByToEdit((prevFilter) => {
             return { ...prevFilter, [field]: value }
         })

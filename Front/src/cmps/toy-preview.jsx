@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react"
 export function ToyPreview({ toy, onRemoveToy }) {
 
     return <article className="toy-preview">
-        <h2>Name: {toy.name}</h2>
+        <h2>{toy.name}</h2>
         <h4>Price: {toy.price}</h4>
         <img src={`https://robohash.org/${toy._id}?set=set2`} />
         <div className="toy-labels">

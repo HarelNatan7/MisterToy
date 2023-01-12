@@ -37,7 +37,7 @@ export function MyChartB({ dataMap, getLabelsAmount }) {
     };
     return (
         <div style={{ width: '40%', margin: 'auto' }}>
-            <h1>Prices</h1>
+            <h1>Our Prices</h1>
             <Doughnut data={data} />
         </div>
     )

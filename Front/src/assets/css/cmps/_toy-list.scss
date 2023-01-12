@@ -1,0 +1,6 @@
+.toy-list {
+    margin: 20px 50px;
+    grid-template-columns: repeat(auto-fit, minmax(222px, 1fr));
+    gap: 24px;
+    /* justify-content: center; */
+}

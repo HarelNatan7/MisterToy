@@ -1,0 +1,31 @@
+
+.app-header {
+    background: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    padding: 20px 15px;
+    color: #fff;
+    box-shadow: 0 1px 7px 0 rgb(128, 128, 128);
+
+    h1 {
+        font-size: 7rem;
+        color: gold;
+    }
+}
+
+nav {
+    a {
+        margin: .5em;
+        &.active {
+            color: lightpink;
+            font-weight: bold;
+        }
+    } 
+
+}
+
+.logo {
+    width: 107px;
+}

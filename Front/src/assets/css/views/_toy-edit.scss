@@ -1,0 +1,21 @@
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 40%;
+    margin: 77px auto;
+    
+    a {
+        margin: 0 auto;
+        text-align: center;
+        width: 30%;
+    }
+    button {
+        margin: 0 auto;
+        width: 33%;
+    }
+}
+
+// .select-container {
+//     width: 250px;
+// }
