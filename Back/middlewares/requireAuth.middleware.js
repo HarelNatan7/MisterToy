@@ -4,8 +4,9 @@ const config = require('../config')
 
 async function requireAuth(req, res, next) {
   
-  if (config.isGuestMode && !req?.cookies?.loginToken) {
+  if (config.isGuestMode) {
     req.loggedinUser = {_id: '', fullname: 'Guest'}
+    console.log('hiiGuest');
     return next()
   }
 
@@ -14,6 +15,7 @@ async function requireAuth(req, res, next) {
   if (!loggedinUser) return res.status(401).send('Not Authenticated')
 
   req.loggedinUser = loggedinUser
+  console.log('req:', req)
   next()
 }
 

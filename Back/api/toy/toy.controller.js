@@ -26,7 +26,7 @@ async function getToyById(req, res) {
 }
 
 async function addToy(req, res) {
-
+console.log('hiiii');
   try {
     const toy = req.body
     const addedToy = await toyService.add(toy)

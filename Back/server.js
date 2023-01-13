@@ -1,6 +1,5 @@
 const express = require('express')
 const cookieParser = require('cookie-parser')
-const toyService = require('./services/toy.service.js')
 const cors = require('cors')
 const path = require('path')
 
@@ -34,10 +33,6 @@ const toyRoutes = require('./api/toy/toy.routes')
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/toy', toyRoutes)
-
-
-
-
 
 // Real routing express
 // List

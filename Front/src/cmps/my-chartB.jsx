@@ -11,7 +11,7 @@ export function MyChartB({ dataMap, getLabelsAmount }) {
         labels: Object.keys(getLabelsAmount()),
         datasets: [
             {
-                label: 'Toys Prices',
+                label: 'Average',
                 data: Object.values(dataMap),
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
