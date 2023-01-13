@@ -49,16 +49,15 @@ export function ToyEdit() {
         setToyToEdit((prevToy) => ({ ...prevToy, labels: labelsToSet }))
     }
 
-    function onAddToy(ev) {
+    async function onAddToy(ev) {
         ev.preventDefault()
-        saveToy(toyToEdit)
-            .then((savedToy) => {
-                showSuccessMsg(`Toy added (id: ${savedToy._id})`)
-                navigate('/toy')
-            })
-            .catch(err => {
-                showErrorMsg('Cannot add Toy', err)
-            })
+        const savedToy = await saveToy(toyToEdit)
+        try {
+            showSuccessMsg(`Toy added (id: ${savedToy._id})`)
+            navigate('/toy')
+        } catch (err) {
+            showErrorMsg('Cannot add Toy', err)
+        }
     }
 
     const SignupSchema = Yup.object().shape({

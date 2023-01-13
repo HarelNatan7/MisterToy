@@ -11,12 +11,24 @@ export const toyService = {
     remove,
     getEmptyToy,
     getDefaultFilter,
-    getToyLabels
+    getToyLabels,
+    onAddToyMsg,
+    onRemoveToyMsg
+}
+
+async function onAddToyMsg(toyId, txt) {
+    const savedMsg = await httpService.post(`toy/${toyId}/msg`, { txt })
+    return savedMsg
+}
+
+async function onRemoveToyMsg(toyId, msgId) {
+    const savedMsg = await httpService.delete(`toy/${toyId}/msg/${msgId}`)
+    return savedMsg
 }
 
 function query(filterBy = getDefaultFilter()) {
-    const queryParams = 
-    `?name=${filterBy.name}&inStock=${filterBy.inStock}&label=${filterBy.label}&sortBy=${filterBy.sortBy}&desc=${filterBy.desc}`
+    const queryParams =
+        `?name=${filterBy.name}&inStock=${filterBy.inStock}&label=${filterBy.label}&sortBy=${filterBy.sortBy}&desc=${filterBy.desc}`
     return httpService.get(BASE_URL + queryParams)
 }
 
@@ -37,7 +49,7 @@ function save(toy) {
 }
 
 function getDefaultFilter() {
-return {name: '', inStock: true , label: [], sortBy: '', desc: 1}
+    return { name: '', inStock: true, label: [], sortBy: '', desc: 1 }
 }
 
 function getEmptyToy() {
