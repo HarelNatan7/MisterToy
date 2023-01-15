@@ -6,7 +6,7 @@ const ObjectId = require('mongodb').ObjectId
 async function query(filterBy) {
     try {
         const criteria = getFilterCriteria(filterBy)
-        console.log('criteria:', criteria)
+        // console.log('criteria:', criteria)
         const collection = await dbService.getCollection('toy')
         var toys = await collection.find(criteria).toArray()
         // Sort
@@ -55,7 +55,7 @@ async function add(toy) {
 }
 
 async function update(toy) {
-    console.log('toy:', toy)
+    // console.log('toy:', toy)
     try {
         const toyToSave = {
             name: toy.name,

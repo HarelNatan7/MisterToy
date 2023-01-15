@@ -453,3 +453,627 @@
 13.1.2023, 13:45:40 - INFO - Req was made 
 13.1.2023, 13:45:40 - DEBUG - Getting toys 
 13.1.2023, 13:45:40 - INFO - Req was made 
+15.1.2023, 16:24:28 - INFO - Server is running on port: 3030 
+15.1.2023, 16:24:52 - INFO - Server is running on port: 3030 
+15.1.2023, 16:25:10 - INFO - Req was made 
+15.1.2023, 16:25:10 - DEBUG - Getting toys 
+15.1.2023, 16:25:14 - INFO - Req was made 
+15.1.2023, 16:25:14 - DEBUG - Getting toys 
+15.1.2023, 16:25:14 - INFO - Req was made 
+15.1.2023, 16:25:14 - DEBUG - Getting toys 
+15.1.2023, 16:25:25 - INFO - Req was made 
+15.1.2023, 16:25:25 - DEBUG - Getting toys 
+15.1.2023, 16:25:26 - INFO - Req was made 
+15.1.2023, 16:25:26 - DEBUG - Getting toys 
+15.1.2023, 16:40:12 - INFO - Req was made 
+15.1.2023, 16:40:12 - DEBUG - Getting toys 
+15.1.2023, 16:47:51 - INFO - Req was made 
+15.1.2023, 16:47:51 - DEBUG - Getting toys 
+15.1.2023, 16:47:51 - INFO - Req was made 
+15.1.2023, 16:47:51 - DEBUG - Getting toys 
+15.1.2023, 16:49:25 - INFO - Req was made 
+15.1.2023, 16:49:25 - DEBUG - Getting toys 
+15.1.2023, 16:49:25 - INFO - Req was made 
+15.1.2023, 16:49:25 - DEBUG - Getting toys 
+15.1.2023, 16:58:16 - INFO - Req was made 
+15.1.2023, 16:58:16 - DEBUG - Getting toys 
+15.1.2023, 16:58:19 - INFO - Req was made 
+15.1.2023, 16:58:19 - DEBUG - Getting toys 
+15.1.2023, 16:58:19 - INFO - Req was made 
+15.1.2023, 16:58:19 - DEBUG - Getting toys 
+15.1.2023, 16:58:24 - INFO - Req was made 
+15.1.2023, 16:58:24 - DEBUG - Getting toys 
+15.1.2023, 16:58:27 - INFO - Req was made 
+15.1.2023, 16:58:27 - DEBUG - Getting toys 
+15.1.2023, 16:58:28 - INFO - Req was made 
+15.1.2023, 16:58:28 - DEBUG - Getting toys 
+15.1.2023, 16:59:29 - INFO - Req was made 
+15.1.2023, 16:59:29 - DEBUG - Getting toys 
+15.1.2023, 16:59:40 - INFO - Req was made 
+15.1.2023, 16:59:40 - DEBUG - Getting toys 
+15.1.2023, 16:59:40 - INFO - Req was made 
+15.1.2023, 16:59:40 - DEBUG - Getting toys 
+15.1.2023, 17:01:25 - INFO - Req was made 
+15.1.2023, 17:01:25 - DEBUG - Getting toys 
+15.1.2023, 17:01:25 - INFO - Req was made 
+15.1.2023, 17:01:25 - DEBUG - Getting toys 
+15.1.2023, 17:10:25 - INFO - Server is running on port: 3030 
+15.1.2023, 17:11:01 - INFO - Server is running on port: 3030 
+15.1.2023, 17:11:05 - INFO - Req was made 
+15.1.2023, 17:11:05 - DEBUG - Getting toys 
+15.1.2023, 17:11:06 - DEBUG - Getting toys 
+15.1.2023, 17:11:06 - INFO - Req was made 
+15.1.2023, 17:23:05 - INFO - Req was made 
+15.1.2023, 17:23:05 - DEBUG - Getting toys 
+15.1.2023, 17:23:06 - INFO - Req was made 
+15.1.2023, 17:23:06 - DEBUG - Getting toys 
+15.1.2023, 17:23:21 - INFO - Req was made 
+15.1.2023, 17:23:21 - DEBUG - Getting toys 
+15.1.2023, 17:23:21 - INFO - Req was made 
+15.1.2023, 17:23:21 - DEBUG - Getting toys 
+15.1.2023, 17:23:54 - INFO - Req was made 
+15.1.2023, 17:23:54 - DEBUG - Getting toys 
+15.1.2023, 17:23:55 - DEBUG - Getting toys 
+15.1.2023, 17:23:55 - INFO - Req was made 
+15.1.2023, 17:23:56 - INFO - Req was made 
+15.1.2023, 17:23:56 - DEBUG - Getting toys 
+15.1.2023, 17:24:07 - INFO - Req was made 
+15.1.2023, 17:24:07 - DEBUG - Getting toys 
+15.1.2023, 17:25:05 - INFO - Req was made 
+15.1.2023, 17:25:05 - DEBUG - Getting toys 
+15.1.2023, 17:25:06 - INFO - Req was made 
+15.1.2023, 17:25:06 - DEBUG - Getting toys 
+15.1.2023, 17:25:10 - INFO - Req was made 
+15.1.2023, 17:25:10 - DEBUG - Getting toys 
+15.1.2023, 17:25:11 - INFO - Req was made 
+15.1.2023, 17:25:11 - DEBUG - Getting toys 
+15.1.2023, 17:29:17 - INFO - Req was made 
+15.1.2023, 17:29:17 - DEBUG - Getting toys 
+15.1.2023, 17:29:17 - INFO - Req was made 
+15.1.2023, 17:29:17 - DEBUG - Getting toys 
+15.1.2023, 17:29:20 - DEBUG - Getting toys 
+15.1.2023, 17:29:20 - INFO - Req was made 
+15.1.2023, 17:29:31 - DEBUG - auth.service - login with username: Harel 
+15.1.2023, 17:29:31 - INFO - User login:  | {"_id":"63c11b02fa68bc0e78869556","username":"Harel","fullname":"Harel Natan","score":0} 
+15.1.2023, 17:29:33 - INFO - Req was made 
+15.1.2023, 17:29:33 - DEBUG - Getting toys 
+15.1.2023, 17:29:34 - INFO - Req was made 
+15.1.2023, 17:29:34 - DEBUG - Getting toys 
+15.1.2023, 18:06:41 - INFO - Server is running on port: 3030 
+15.1.2023, 18:06:45 - INFO - Req was made 
+15.1.2023, 18:06:45 - DEBUG - Getting toys 
+15.1.2023, 18:06:45 - INFO - Req was made 
+15.1.2023, 18:06:45 - DEBUG - Getting toys 
+15.1.2023, 18:08:03 - INFO - Req was made 
+15.1.2023, 18:08:03 - ERROR - while finding user 63c424e3fcd79c4024188785 | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:08:03 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:08:10 - INFO - Req was made 
+15.1.2023, 18:08:10 - ERROR - while finding user 63c424eafcd79c4024188787 | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:08:10 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:09:13 - INFO - Req was made 
+15.1.2023, 18:09:13 - ERROR - while finding user 63c42529fcd79c4024188789 | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:09:13 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:13:07 - INFO - Req was made 
+15.1.2023, 18:13:07 - ERROR - while finding user 63c42613fcd79c402418878b | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:13:07 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:16:33 - INFO - Req was made 
+15.1.2023, 18:16:33 - ERROR - while finding user 63c426e1fcd79c402418878d | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:16:33 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:18:04 - INFO - Req was made 
+15.1.2023, 18:18:04 - ERROR - while finding user 63c4273cfcd79c402418878f | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:18:04 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:19:51 - INFO - Server is running on port: 3030 
+15.1.2023, 18:19:57 - INFO - Server is running on port: 3030 
+15.1.2023, 18:19:59 - INFO - Server is running on port: 3030 
+15.1.2023, 18:20:08 - INFO - Req was made 
+15.1.2023, 18:20:08 - ERROR - while finding user 63c427b8b1b5b251b043965b | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:20:08 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:21:02 - INFO - Server is running on port: 3030 
+15.1.2023, 18:21:13 - INFO - Req was made 
+15.1.2023, 18:21:14 - ERROR - while finding user 63c427faf740aa10306f35ec | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:21:14 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:22:44 - INFO - Server is running on port: 3030 
+15.1.2023, 18:22:53 - INFO - Req was made 
+15.1.2023, 18:22:53 - ERROR - while finding user 63c4285dc060b404241fc6cd | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:22:53 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:23:07 - INFO - Req was made 
+15.1.2023, 18:23:07 - ERROR - while finding user 63c4286bc060b404241fc6cf | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:23:07 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:24:41 - INFO - Server is running on port: 3030 
+15.1.2023, 18:25:08 - INFO - Server is running on port: 3030 
+15.1.2023, 18:25:15 - INFO - Server is running on port: 3030 
+15.1.2023, 18:25:22 - INFO - Server is running on port: 3030 
+15.1.2023, 18:25:27 - INFO - Server is running on port: 3030 
+15.1.2023, 18:25:58 - INFO - Server is running on port: 3030 
+15.1.2023, 18:26:08 - INFO - Server is running on port: 3030 
+15.1.2023, 18:26:12 - INFO - Server is running on port: 3030 
+15.1.2023, 18:26:28 - INFO - Req was made 
+15.1.2023, 18:26:28 - ERROR - while finding user undefined | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:26:28 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 
+15.1.2023, 18:30:26 - INFO - Server is running on port: 3030 
+15.1.2023, 18:30:33 - INFO - Server is running on port: 3030 
+15.1.2023, 18:31:34 - INFO - Server is running on port: 3030 
+15.1.2023, 18:31:56 - INFO - Server is running on port: 3030 
+15.1.2023, 18:32:42 - INFO - Server is running on port: 3030 
+15.1.2023, 18:33:10 - INFO - Server is running on port: 3030 
+15.1.2023, 18:33:27 - INFO - Server is running on port: 3030 
+15.1.2023, 18:33:45 - INFO - Server is running on port: 3030 
+15.1.2023, 18:34:34 - INFO - Server is running on port: 3030 
+15.1.2023, 18:34:39 - INFO - Server is running on port: 3030 
+15.1.2023, 18:34:46 - INFO - Req was made 
+15.1.2023, 18:34:46 - ERROR - Failed to add review | ReferenceError: toyService is not defined 
+15.1.2023, 18:35:39 - INFO - Server is running on port: 3030 
+15.1.2023, 18:36:56 - INFO - Server is running on port: 3030 
+15.1.2023, 18:37:01 - INFO - Server is running on port: 3030 
+15.1.2023, 18:37:17 - INFO - Req was made 
+15.1.2023, 18:40:07 - INFO - Req was made 
+15.1.2023, 18:48:33 - INFO - Server is running on port: 3030 
+15.1.2023, 18:49:47 - INFO - Server is running on port: 3030 
+15.1.2023, 18:49:50 - INFO - Server is running on port: 3030 
+15.1.2023, 18:49:54 - INFO - Server is running on port: 3030 
+15.1.2023, 18:50:01 - INFO - Server is running on port: 3030 
+15.1.2023, 18:50:18 - INFO - Server is running on port: 3030 
+15.1.2023, 18:50:23 - INFO - Server is running on port: 3030 
+15.1.2023, 18:50:34 - INFO - Server is running on port: 3030 
+15.1.2023, 18:50:39 - INFO - Server is running on port: 3030 
+15.1.2023, 18:50:55 - INFO - Server is running on port: 3030 
+15.1.2023, 18:51:10 - DEBUG - Getting toys 
+15.1.2023, 18:51:10 - INFO - Req was made 
+15.1.2023, 18:51:11 - INFO - Req was made 
+15.1.2023, 18:51:52 - INFO - Req was made 
+15.1.2023, 18:51:54 - INFO - Req was made 
+15.1.2023, 18:51:58 - INFO - Req was made 
+15.1.2023, 18:52:56 - INFO - Req was made 
+15.1.2023, 18:52:56 - DEBUG - Getting toys 
+15.1.2023, 18:52:56 - INFO - Req was made 
+15.1.2023, 18:52:56 - DEBUG - Getting toys 
+15.1.2023, 18:53:07 - INFO - Req was made 
+15.1.2023, 18:53:39 - INFO - Req was made 
+15.1.2023, 18:53:50 - DEBUG - Getting toys 
+15.1.2023, 18:53:50 - INFO - Req was made 
+15.1.2023, 18:53:50 - INFO - Req was made 
+15.1.2023, 18:53:50 - DEBUG - Getting toys 
+15.1.2023, 18:54:19 - INFO - Req was made 
+15.1.2023, 18:54:19 - DEBUG - Getting toys 
+15.1.2023, 18:54:20 - INFO - Req was made 
+15.1.2023, 18:54:20 - DEBUG - Getting toys 
+15.1.2023, 18:54:20 - INFO - Req was made 
+15.1.2023, 18:56:19 - INFO - Server is running on port: 3030 
+15.1.2023, 18:56:40 - INFO - Req was made 
+15.1.2023, 18:56:40 - DEBUG - Getting toys 
+15.1.2023, 18:56:40 - INFO - Req was made 
+15.1.2023, 18:56:40 - DEBUG - Getting toys 
+15.1.2023, 18:56:41 - INFO - Req was made 
+15.1.2023, 18:58:23 - INFO - Req was made 
+15.1.2023, 18:58:23 - DEBUG - Getting toys 
+15.1.2023, 18:58:24 - INFO - Req was made 
+15.1.2023, 18:58:24 - DEBUG - Getting toys 
+15.1.2023, 18:58:32 - INFO - Req was made 
+15.1.2023, 18:58:41 - INFO - Req was made 
+15.1.2023, 19:02:38 - INFO - Req was made 
+15.1.2023, 19:02:46 - INFO - Req was made 
+15.1.2023, 19:02:46 - DEBUG - Getting toys 
+15.1.2023, 19:02:47 - DEBUG - Getting toys 
+15.1.2023, 19:02:47 - INFO - Req was made 
+15.1.2023, 19:02:52 - INFO - Req was made 
+15.1.2023, 19:03:00 - INFO - Req was made 
+15.1.2023, 19:03:10 - DEBUG - Getting toys 
+15.1.2023, 19:03:10 - INFO - Req was made 
+15.1.2023, 19:03:10 - INFO - Req was made 
+15.1.2023, 19:03:10 - DEBUG - Getting toys 
+15.1.2023, 19:03:15 - INFO - Req was made 
+15.1.2023, 19:04:36 - INFO - Req was made 
+15.1.2023, 19:04:37 - INFO - Req was made 
+15.1.2023, 19:04:37 - DEBUG - Getting toys 
+15.1.2023, 19:04:38 - INFO - Req was made 
+15.1.2023, 19:04:38 - DEBUG - Getting toys 
+15.1.2023, 19:04:42 - INFO - Req was made 
+15.1.2023, 19:05:00 - INFO - Req was made 
+15.1.2023, 19:05:03 - DEBUG - Getting toys 
+15.1.2023, 19:05:03 - INFO - Req was made 
+15.1.2023, 19:05:03 - INFO - Req was made 
+15.1.2023, 19:05:03 - DEBUG - Getting toys 
+15.1.2023, 19:05:07 - INFO - Req was made 
+15.1.2023, 19:05:28 - INFO - Req was made 
+15.1.2023, 19:05:46 - INFO - Req was made 
+15.1.2023, 19:05:56 - INFO - Req was made 
+15.1.2023, 19:06:00 - INFO - Req was made 
+15.1.2023, 19:06:00 - DEBUG - Getting toys 
+15.1.2023, 19:06:00 - INFO - Req was made 
+15.1.2023, 19:06:07 - INFO - Req was made 
+15.1.2023, 19:06:08 - INFO - Req was made 
+15.1.2023, 19:06:11 - INFO - Req was made 
+15.1.2023, 19:07:11 - INFO - Req was made 
+15.1.2023, 19:14:03 - INFO - Req was made 
+15.1.2023, 19:14:03 - DEBUG - Getting toys 
+15.1.2023, 19:14:04 - INFO - Req was made 
+15.1.2023, 19:14:04 - DEBUG - Getting toys 
+15.1.2023, 19:14:13 - INFO - Req was made 
+15.1.2023, 19:14:42 - INFO - Req was made 
+15.1.2023, 19:14:51 - INFO - Req was made 
+15.1.2023, 19:14:51 - DEBUG - Getting toys 
+15.1.2023, 19:14:52 - INFO - Req was made 
+15.1.2023, 19:14:52 - DEBUG - Getting toys 
+15.1.2023, 19:24:11 - INFO - Req was made 
+15.1.2023, 19:24:30 - INFO - Req was made 
+15.1.2023, 19:24:30 - DEBUG - Getting toys 
+15.1.2023, 19:24:31 - INFO - Req was made 
+15.1.2023, 19:24:31 - DEBUG - Getting toys 
+15.1.2023, 19:24:41 - INFO - Req was made 
+15.1.2023, 19:24:48 - INFO - Req was made 
+15.1.2023, 19:24:48 - DEBUG - Getting toys 
+15.1.2023, 19:24:49 - INFO - Req was made 
+15.1.2023, 19:24:49 - DEBUG - Getting toys 
+15.1.2023, 19:24:49 - INFO - Req was made 
+15.1.2023, 19:24:49 - DEBUG - Getting toys 
+15.1.2023, 19:25:00 - INFO - Req was made 
+15.1.2023, 19:25:23 - INFO - Req was made 
+15.1.2023, 19:25:24 - INFO - Req was made 
+15.1.2023, 19:25:24 - DEBUG - Getting toys 
+15.1.2023, 19:25:24 - INFO - Req was made 
+15.1.2023, 19:25:24 - DEBUG - Getting toys 
+15.1.2023, 19:26:08 - DEBUG - Getting toys 
+15.1.2023, 19:26:08 - INFO - Req was made 
+15.1.2023, 19:26:08 - INFO - Req was made 
+15.1.2023, 19:26:08 - DEBUG - Getting toys 
+15.1.2023, 19:26:14 - INFO - Req was made 
+15.1.2023, 19:26:16 - INFO - Req was made 
+15.1.2023, 19:26:46 - INFO - Req was made 
+15.1.2023, 19:26:46 - DEBUG - Getting toys 
+15.1.2023, 19:26:46 - DEBUG - Getting toys 
+15.1.2023, 19:26:46 - INFO - Req was made 
+15.1.2023, 19:26:50 - INFO - Req was made 
+15.1.2023, 19:29:40 - INFO - Req was made 
+15.1.2023, 19:29:44 - INFO - Req was made 
+15.1.2023, 19:30:33 - INFO - Req was made 
+15.1.2023, 19:30:33 - DEBUG - Getting toys 
+15.1.2023, 19:30:34 - INFO - Req was made 
+15.1.2023, 19:30:34 - DEBUG - Getting toys 
+15.1.2023, 19:30:35 - INFO - Req was made 
+15.1.2023, 19:31:24 - INFO - Req was made 
+15.1.2023, 19:31:46 - INFO - Req was made 
+15.1.2023, 19:32:16 - INFO - Req was made 
+15.1.2023, 19:32:21 - INFO - Req was made 
+15.1.2023, 19:33:21 - INFO - Req was made 
+15.1.2023, 19:33:39 - INFO - Req was made 
+15.1.2023, 19:33:41 - INFO - Req was made 
+15.1.2023, 19:33:42 - INFO - Req was made 
+15.1.2023, 19:33:53 - INFO - Req was made 
+15.1.2023, 19:33:53 - INFO - Req was made 
+15.1.2023, 19:33:55 - INFO - Req was made 
+15.1.2023, 19:33:57 - INFO - Req was made 
+15.1.2023, 19:34:55 - INFO - Req was made 
+15.1.2023, 19:34:55 - INFO - Req was made 
+15.1.2023, 19:34:55 - INFO - Req was made 
+15.1.2023, 19:34:58 - INFO - Req was made 
+15.1.2023, 19:35:06 - INFO - Req was made 
+15.1.2023, 19:35:16 - INFO - Req was made 
+15.1.2023, 19:36:29 - INFO - Req was made 
+15.1.2023, 19:36:35 - INFO - Req was made 
+15.1.2023, 19:36:35 - DEBUG - Getting toys 
+15.1.2023, 19:36:35 - INFO - Req was made 
+15.1.2023, 19:36:35 - DEBUG - Getting toys 
+15.1.2023, 19:36:36 - INFO - Req was made 
+15.1.2023, 19:36:40 - INFO - Req was made 
+15.1.2023, 19:36:40 - DEBUG - Getting toys 
+15.1.2023, 19:36:40 - DEBUG - Getting toys 
+15.1.2023, 19:36:40 - INFO - Req was made 
+15.1.2023, 19:36:43 - INFO - Req was made 
+15.1.2023, 19:36:45 - INFO - Req was made 
+15.1.2023, 19:36:45 - DEBUG - Getting toys 
+15.1.2023, 19:36:46 - INFO - Req was made 
+15.1.2023, 19:36:46 - DEBUG - Getting toys 
+15.1.2023, 19:38:35 - INFO - Server is running on port: 3030 
+15.1.2023, 19:39:15 - INFO - Server is running on port: 3030 
+15.1.2023, 19:42:35 - INFO - Req was made 
+15.1.2023, 19:42:36 - INFO - Req was made 
+15.1.2023, 19:43:11 - ERROR - cannot remove review 63c42c6782b3a124c08223a6 | TypeError: Cannot destructure property 'loggedinUser' of 'store' as it is undefined. 
+15.1.2023, 19:43:11 - ERROR - Failed to delete review | TypeError: Cannot destructure property 'loggedinUser' of 'store' as it is undefined. 
+15.1.2023, 19:43:50 - INFO - Server is running on port: 3030 
+15.1.2023, 19:43:55 - INFO - Server is running on port: 3030 
+15.1.2023, 19:43:58 - INFO - Req was made 
+15.1.2023, 19:44:04 - ERROR - cannot remove review 63c42c6782b3a124c08223a6 | ReferenceError: criteria is not defined 
+15.1.2023, 19:44:04 - ERROR - Failed to delete review | ReferenceError: criteria is not defined 
+15.1.2023, 19:44:48 - INFO - Server is running on port: 3030 
+15.1.2023, 19:45:16 - INFO - Req was made 
+15.1.2023, 19:45:16 - DEBUG - Getting toys 
+15.1.2023, 19:45:16 - INFO - Req was made 
+15.1.2023, 19:45:16 - DEBUG - Getting toys 
+15.1.2023, 19:45:24 - INFO - Req was made 
+15.1.2023, 19:45:28 - INFO - Req was made 
+15.1.2023, 19:45:28 - DEBUG - Getting toys 
+15.1.2023, 19:45:29 - INFO - Req was made 
+15.1.2023, 19:45:29 - DEBUG - Getting toys 
+15.1.2023, 19:45:29 - INFO - Req was made 
+15.1.2023, 19:45:32 - INFO - Req was made 
+15.1.2023, 19:45:32 - DEBUG - Getting toys 
+15.1.2023, 19:45:32 - INFO - Req was made 
+15.1.2023, 19:45:32 - DEBUG - Getting toys 
+15.1.2023, 19:45:34 - INFO - Req was made 
+15.1.2023, 19:50:01 - INFO - Req was made 
+15.1.2023, 19:50:30 - INFO - Req was made 
+15.1.2023, 19:50:59 - INFO - Req was made 
+15.1.2023, 19:52:19 - INFO - Req was made 
+15.1.2023, 19:52:46 - DEBUG - auth.service - login with username: Harel 
+15.1.2023, 19:52:46 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 19:52:46 - INFO - Req was made 
+15.1.2023, 19:52:46 - DEBUG - Getting toys 
+15.1.2023, 19:53:03 - DEBUG - auth.service - login with username: Harel 
+15.1.2023, 19:53:03 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 19:53:04 - INFO - Req was made 
+15.1.2023, 19:53:04 - DEBUG - Getting toys 
+15.1.2023, 19:53:26 - INFO - Req was made 
+15.1.2023, 19:53:26 - DEBUG - Getting toys 
+15.1.2023, 19:53:43 - INFO - Req was made 
+15.1.2023, 19:54:21 - DEBUG - auth.service - login with username: Oriya 
+15.1.2023, 19:54:21 - INFO - User login:  | {"_id":"63c144556aaf5338188b7263","username":"Oriya","fullname":"Oriya Natan","score":0} 
+15.1.2023, 20:01:32 - INFO - Req was made 
+15.1.2023, 20:01:33 - INFO - Req was made 
+15.1.2023, 20:01:33 - INFO - Req was made 
+15.1.2023, 20:01:33 - INFO - Req was made 
+15.1.2023, 20:01:45 - INFO - Req was made 
+15.1.2023, 20:01:49 - INFO - Req was made 
+15.1.2023, 20:01:53 - INFO - Req was made 
+15.1.2023, 20:01:53 - DEBUG - Getting toys 
+15.1.2023, 20:01:54 - INFO - Req was made 
+15.1.2023, 20:01:54 - DEBUG - Getting toys 
+15.1.2023, 20:02:00 - INFO - Req was made 
+15.1.2023, 20:02:09 - INFO - Req was made 
+15.1.2023, 20:02:20 - INFO - Req was made 
+15.1.2023, 20:02:48 - INFO - Req was made 
+15.1.2023, 20:02:56 - INFO - Req was made 
+15.1.2023, 20:02:57 - INFO - Req was made 
+15.1.2023, 20:02:58 - INFO - Req was made 
+15.1.2023, 20:03:01 - INFO - Req was made 
+15.1.2023, 20:03:30 - INFO - Req was made 
+15.1.2023, 20:06:20 - INFO - Req was made 
+15.1.2023, 20:06:30 - INFO - Req was made 
+15.1.2023, 20:06:30 - DEBUG - Getting toys 
+15.1.2023, 20:06:30 - INFO - Req was made 
+15.1.2023, 20:06:30 - DEBUG - Getting toys 
+15.1.2023, 20:06:33 - INFO - Req was made 
+15.1.2023, 20:06:43 - INFO - Req was made 
+15.1.2023, 20:07:06 - INFO - Req was made 
+15.1.2023, 20:07:09 - INFO - Req was made 
+15.1.2023, 20:09:05 - DEBUG - Getting toys 
+15.1.2023, 20:09:05 - INFO - Req was made 
+15.1.2023, 20:10:24 - INFO - Req was made 
+15.1.2023, 20:13:51 - INFO - Req was made 
+15.1.2023, 20:13:51 - DEBUG - Getting toys 
+15.1.2023, 20:13:52 - INFO - Req was made 
+15.1.2023, 20:13:52 - DEBUG - Getting toys 
+15.1.2023, 20:13:52 - INFO - Req was made 
+15.1.2023, 20:13:52 - DEBUG - Getting toys 
+15.1.2023, 20:13:53 - DEBUG - Getting toys 
+15.1.2023, 20:13:53 - INFO - Req was made 
+15.1.2023, 20:13:54 - INFO - Req was made 
+15.1.2023, 20:13:56 - INFO - Req was made 
+15.1.2023, 20:14:22 - INFO - Req was made 
+15.1.2023, 20:14:24 - INFO - Req was made 
+15.1.2023, 20:14:26 - INFO - Req was made 
+15.1.2023, 20:14:39 - INFO - Req was made 
+15.1.2023, 20:14:49 - INFO - Req was made 
+15.1.2023, 20:15:09 - INFO - Req was made 
+15.1.2023, 20:15:11 - INFO - Req was made 
+15.1.2023, 20:17:03 - INFO - Req was made 
+15.1.2023, 20:17:28 - INFO - Req was made 
+15.1.2023, 20:17:48 - INFO - Req was made 
+15.1.2023, 20:20:36 - INFO - Req was made 
+15.1.2023, 20:20:39 - DEBUG - Getting toys 
+15.1.2023, 20:20:39 - INFO - Req was made 
+15.1.2023, 20:20:40 - INFO - Req was made 
+15.1.2023, 20:20:40 - DEBUG - Getting toys 
+15.1.2023, 20:20:41 - INFO - Req was made 
+15.1.2023, 20:20:48 - INFO - Req was made 
+15.1.2023, 20:20:56 - INFO - Req was made 
+15.1.2023, 20:22:17 - INFO - Req was made 
+15.1.2023, 20:22:34 - DEBUG - auth.service - login with username: Harel 
+15.1.2023, 20:22:34 - ERROR - Failed to Login Invalid username or password 
+15.1.2023, 20:22:35 - INFO - Req was made 
+15.1.2023, 20:22:35 - DEBUG - Getting toys 
+15.1.2023, 20:22:57 - DEBUG - auth.service - signup with username: Harel, fullname: Harel N 
+15.1.2023, 20:22:57 - DEBUG - auth.route - new account created: {"username":"Harel","password":"$2b$10$0reZRg4is0eUBBTgRH9lmuk57sS7hLd8jkWzfPMyavOAhRaHKIKP6","fullname":"Harel N","score":0,"_id":"63c444814560b71648757d78"} 
+15.1.2023, 20:22:57 - DEBUG - auth.service - login with username: Harel 
+15.1.2023, 20:22:57 - INFO - User login:  | {"_id":"63c444814560b71648757d78","username":"Harel","fullname":"Harel N","score":0} 
+15.1.2023, 20:23:00 - INFO - Req was made 
+15.1.2023, 20:23:02 - INFO - Req was made 
+15.1.2023, 20:23:36 - INFO - Req was made 
+15.1.2023, 20:23:45 - INFO - Req was made 
+15.1.2023, 20:23:47 - INFO - Req was made 
+15.1.2023, 20:24:09 - INFO - Req was made 
+15.1.2023, 20:24:11 - INFO - Req was made 
+15.1.2023, 20:24:12 - INFO - Req was made 
+15.1.2023, 20:24:15 - INFO - Req was made 
+15.1.2023, 20:24:17 - INFO - Req was made 
+15.1.2023, 20:24:23 - INFO - Req was made 
+15.1.2023, 20:24:26 - INFO - Req was made 
+15.1.2023, 20:24:37 - INFO - Req was made 
+15.1.2023, 20:24:42 - INFO - Req was made 
+15.1.2023, 20:24:45 - INFO - Req was made 
+15.1.2023, 20:24:47 - INFO - Req was made 
+15.1.2023, 20:24:50 - INFO - Req was made 
+15.1.2023, 20:24:55 - INFO - Req was made 
+15.1.2023, 20:26:10 - INFO - Req was made 
+15.1.2023, 20:26:22 - INFO - Req was made 
+15.1.2023, 20:26:22 - DEBUG - Getting toys 
+15.1.2023, 20:26:22 - INFO - Req was made 
+15.1.2023, 20:26:22 - DEBUG - Getting toys 
+15.1.2023, 20:27:52 - INFO - Req was made 
+15.1.2023, 20:36:10 - INFO - Req was made 
+15.1.2023, 20:36:10 - DEBUG - Getting toys 
+15.1.2023, 20:36:11 - INFO - Req was made 
+15.1.2023, 20:36:11 - DEBUG - Getting toys 
+15.1.2023, 20:36:56 - INFO - Req was made 
+15.1.2023, 20:36:56 - DEBUG - Getting toys 
+15.1.2023, 20:36:56 - INFO - Req was made 
+15.1.2023, 20:36:56 - DEBUG - Getting toys 
+15.1.2023, 20:38:46 - INFO - Req was made 
+15.1.2023, 20:38:55 - INFO - Req was made 
+15.1.2023, 20:38:55 - DEBUG - Getting toys 
+15.1.2023, 20:38:56 - INFO - Req was made 
+15.1.2023, 20:38:56 - DEBUG - Getting toys 
+15.1.2023, 20:39:28 - INFO - Req was made 
+15.1.2023, 20:39:28 - DEBUG - Getting toys 
+15.1.2023, 20:39:29 - INFO - Req was made 
+15.1.2023, 20:39:29 - DEBUG - Getting toys 
+15.1.2023, 20:42:42 - DEBUG - Getting toys 
+15.1.2023, 20:42:42 - INFO - Req was made 
+15.1.2023, 20:42:43 - INFO - Req was made 
+15.1.2023, 20:42:43 - DEBUG - Getting toys 
+15.1.2023, 20:43:02 - INFO - Req was made 
+15.1.2023, 20:43:02 - DEBUG - Getting toys 
+15.1.2023, 20:43:02 - INFO - Req was made 
+15.1.2023, 20:43:02 - DEBUG - Getting toys 
+15.1.2023, 20:43:08 - INFO - Req was made 
+15.1.2023, 20:43:08 - DEBUG - Getting toys 
+15.1.2023, 20:43:09 - INFO - Req was made 
+15.1.2023, 20:43:09 - DEBUG - Getting toys 
+15.1.2023, 20:43:30 - INFO - Req was made 
+15.1.2023, 20:43:30 - DEBUG - Getting toys 
+15.1.2023, 20:43:30 - INFO - Req was made 
+15.1.2023, 20:43:30 - DEBUG - Getting toys 
+15.1.2023, 20:43:38 - DEBUG - Getting toys 
+15.1.2023, 20:43:38 - INFO - Req was made 
+15.1.2023, 20:43:39 - INFO - Req was made 
+15.1.2023, 20:43:39 - DEBUG - Getting toys 
+15.1.2023, 20:53:04 - INFO - Req was made 
+15.1.2023, 20:53:04 - DEBUG - Getting toys 
+15.1.2023, 20:53:04 - INFO - Req was made 
+15.1.2023, 20:53:04 - DEBUG - Getting toys 
+15.1.2023, 20:53:05 - INFO - Req was made 
+15.1.2023, 20:53:30 - INFO - Req was made 
+15.1.2023, 20:53:41 - INFO - Req was made 
+15.1.2023, 20:53:44 - INFO - Req was made 
+15.1.2023, 20:53:44 - DEBUG - Getting toys 
+15.1.2023, 20:53:44 - INFO - Req was made 
+15.1.2023, 20:53:44 - DEBUG - Getting toys 
+15.1.2023, 20:53:46 - INFO - Req was made 
+15.1.2023, 20:53:59 - INFO - Req was made 
+15.1.2023, 20:54:03 - INFO - Req was made 
+15.1.2023, 20:54:05 - INFO - Req was made 
+15.1.2023, 20:54:05 - DEBUG - Getting toys 
+15.1.2023, 20:54:06 - INFO - Req was made 
+15.1.2023, 20:54:06 - DEBUG - Getting toys 
+15.1.2023, 20:54:08 - INFO - Req was made 
+15.1.2023, 20:54:20 - INFO - Req was made 
+15.1.2023, 20:54:24 - INFO - Req was made 
+15.1.2023, 20:54:26 - INFO - Req was made 
+15.1.2023, 20:54:26 - DEBUG - Getting toys 
+15.1.2023, 20:54:27 - INFO - Req was made 
+15.1.2023, 20:54:27 - DEBUG - Getting toys 
+15.1.2023, 20:54:31 - INFO - Req was made 
+15.1.2023, 20:54:37 - INFO - Req was made 
+15.1.2023, 20:54:38 - INFO - Req was made 
+15.1.2023, 20:54:42 - INFO - Req was made 
+15.1.2023, 20:54:49 - INFO - Req was made 
+15.1.2023, 20:54:52 - INFO - Req was made 
+15.1.2023, 20:55:00 - INFO - Req was made 
+15.1.2023, 20:55:02 - INFO - Req was made 
+15.1.2023, 21:03:07 - INFO - Req was made 
+15.1.2023, 21:03:29 - INFO - Req was made 
+15.1.2023, 21:03:56 - INFO - Req was made 
+15.1.2023, 21:03:58 - INFO - Req was made 
+15.1.2023, 21:04:03 - INFO - Req was made 
+15.1.2023, 21:04:04 - INFO - Req was made 
+15.1.2023, 21:04:55 - INFO - Req was made 
+15.1.2023, 21:05:37 - INFO - Req was made 
+15.1.2023, 21:05:38 - INFO - Req was made 
+15.1.2023, 21:05:38 - DEBUG - Getting toys 
+15.1.2023, 21:05:39 - DEBUG - Getting toys 
+15.1.2023, 21:05:39 - INFO - Req was made 
+15.1.2023, 21:05:42 - INFO - Req was made 
+15.1.2023, 21:06:08 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:08 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:08 - INFO - Req was made 
+15.1.2023, 21:06:08 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:08 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:10 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:10 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:10 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:10 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:10 - INFO - Req was made 
+15.1.2023, 21:06:10 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:10 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:30 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:30 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:30 - INFO - Req was made 
+15.1.2023, 21:06:30 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:30 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:43 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:43 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:43 - INFO - Req was made 
+15.1.2023, 21:06:43 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:43 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:51 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:51 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:51 - INFO - Req was made 
+15.1.2023, 21:06:51 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:51 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:54 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:54 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:54 - INFO - Req was made 
+15.1.2023, 21:06:54 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:54 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:56 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:56 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:56 - INFO - Req was made 
+15.1.2023, 21:06:56 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:56 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:57 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:57 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:57 - INFO - Req was made 
+15.1.2023, 21:06:57 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:06:57 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:07:09 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:07:09 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:07:09 - INFO - Req was made 
+15.1.2023, 21:07:09 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:07:09 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:08:45 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:08:45 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:08:45 - INFO - Req was made 
+15.1.2023, 21:08:45 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:08:45 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:09:33 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:09:33 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:09:33 - INFO - Req was made 
+15.1.2023, 21:09:33 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:09:33 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:09:43 - INFO - Req was made 
+15.1.2023, 21:09:47 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:09:47 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:09:47 - INFO - Req was made 
+15.1.2023, 21:09:47 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:09:47 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:09:48 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:09:48 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:09:48 - INFO - Req was made 
+15.1.2023, 21:09:48 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:09:48 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:09:51 - INFO - Req was made 
+15.1.2023, 21:09:56 - INFO - Req was made 
+15.1.2023, 21:10:09 - INFO - Req was made 
+15.1.2023, 21:10:13 - INFO - Req was made 
+15.1.2023, 21:10:15 - INFO - Req was made 
+15.1.2023, 21:11:16 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:11:16 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:11:16 - INFO - Req was made 
+15.1.2023, 21:11:16 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:11:16 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:11:34 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:11:34 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:11:34 - INFO - Req was made 
+15.1.2023, 21:11:34 - ERROR - Failed to get user | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:11:34 - ERROR - while finding user undefined | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+15.1.2023, 21:11:43 - INFO - Req was made 
+15.1.2023, 21:11:45 - INFO - Req was made 
+15.1.2023, 21:11:47 - INFO - Req was made 
+15.1.2023, 21:11:48 - INFO - Req was made 
+15.1.2023, 21:12:56 - INFO - Req was made 
+15.1.2023, 21:13:04 - INFO - Req was made 
+15.1.2023, 21:13:05 - INFO - Req was made 
+15.1.2023, 21:13:06 - DEBUG - Getting toys 
+15.1.2023, 21:13:06 - INFO - Req was made 
+15.1.2023, 21:13:07 - INFO - Req was made 
+15.1.2023, 21:13:07 - DEBUG - Getting toys 
+15.1.2023, 21:13:08 - INFO - Req was made 

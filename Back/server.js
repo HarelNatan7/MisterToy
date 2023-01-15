@@ -6,7 +6,6 @@ const path = require('path')
 const app = express()
 const http = require('http').createServer(app)
 
-
 // App configuration
 app.use(cookieParser())
 app.use(express.json())
@@ -28,11 +27,14 @@ if (process.env.NODE_ENV === 'production') {
 const authRoutes = require('./api/auth/auth.routes')
 const userRoutes = require('./api/user/user.routes')
 const toyRoutes = require('./api/toy/toy.routes')
+const reviewRoutes = require('./api/review/review.routes')
 
 // Routes
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/toy', toyRoutes)
+app.use('/api/review', reviewRoutes)
+
 
 // Real routing express
 // List

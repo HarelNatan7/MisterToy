@@ -1,13 +1,17 @@
 import { useEffect, useRef, useState } from "react"
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { MsgForm } from "../cmps/msg-form.jsx";
-import { showSuccessMsg } from "../services/event-bus.service.js";
+import { ReviewForm } from "../cmps/review-form.jsx";
+import { ToyReviews } from "../cmps/toy-reviews.jsx";
+import { showErrorMsg, showSuccessMsg } from "../services/event-bus.service.js";
 
 import { toyService } from "../services/toy.service.js"
+import { addReview } from "../store/review.actions.js";
 
 export function ToyDetails() {
     const [toy, setToy] = useState(null)
     const [msg, setMsg] = useState({ txt: '' })
+    const [review, setReview] = useState({ txt: '' })
     const params = useParams()
     const navigate = useNavigate()
 
@@ -22,6 +26,16 @@ export function ToyDetails() {
                 console.log('Had issues in toy details', err)
                 navigate('/toy')
             })
+    }
+
+    async function addToyReview() {
+        try {
+            await addReview({...review, aboutToyId: toy._id})
+            showSuccessMsg('Review added')
+            setReview({ txt: '' })
+        } catch (err) {
+            showErrorMsg('Cannot add review')
+        }
     }
 
     async function addToyMsg() {
@@ -49,5 +63,7 @@ export function ToyDetails() {
             <h3>Toy Msg:</h3>
             <div>{toy.msgs.map(msg => <div key={msg.id} className="msg">{msg.txt} | By: {msg.by.fullname}<button onClick={() => removeToyMsg(msg.id)}>X</button></div>)}</div>
         </section>}
+        <ReviewForm review={review} setReview={setReview} addToyReview={addToyReview} />
+        <ToyReviews toy={toy} />
     </section>
 }

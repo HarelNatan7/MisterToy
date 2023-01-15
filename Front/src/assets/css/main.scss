@@ -15,6 +15,7 @@
 @import './views/_toy-index';
 @import './views/_toy-edit';
 @import './views/_toy-details';
+@import './views/_user-details';
 
 /* Cmps */
 @import './cmps/_app-header';
@@ -22,3 +23,5 @@
 @import './cmps/_toy-list';
 @import './cmps/_toy-filter';
 @import './cmps/_toy-preview';
+@import './cmps/_toy-reviews';
+@import './cmps/_img-uploader';

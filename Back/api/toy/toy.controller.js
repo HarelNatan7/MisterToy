@@ -40,7 +40,7 @@ console.log('hiiii');
 async function updateToy(req, res) {
   try {
     const toy = req.body
-    console.log('toy:', toy)
+    // console.log('toy:', toy)
     const updatedToy = await toyService.update(toy)
     res.json(updatedToy)
   } catch (err) {

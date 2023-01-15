@@ -15,7 +15,7 @@ async function requireAuth(req, res, next) {
   if (!loggedinUser) return res.status(401).send('Not Authenticated')
 
   req.loggedinUser = loggedinUser
-  console.log('req:', req)
+  // console.log('req:', req)
   next()
 }
 
