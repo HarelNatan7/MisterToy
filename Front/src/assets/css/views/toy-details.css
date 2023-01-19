@@ -1,0 +1,17 @@
+.toy-details {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.toy-details h1 {
+    font-size: 2.7rem;
+}
+
+.toy-details img {
+    width: 355px;
+    margin: 0 auto;
+}

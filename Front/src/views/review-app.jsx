@@ -17,7 +17,6 @@ export function ReviewApp() {
 
   useEffect(() => {
     loadReviews()
-    // loadUsers()
   }, [])
 
   const onRemove = async reviewId => {
@@ -30,10 +29,10 @@ export function ReviewApp() {
   }
 
   function canRemove(review) {
-    return review.byUser._id === loggedInUser?._id || loggedInUser?.isAdmin
+    return review?.byUser._id === loggedInUser?._id || loggedInUser?.isAdmin
   }
 
-
+  if (!reviews.length>0) return <h1>Loading...</h1>
   return (
     <div className="review-app">
       <h1>Reviews and Gossip</h1>
@@ -51,10 +50,10 @@ export function ReviewApp() {
             <h3>{review.txt}</h3>
             <p>
               By:
-              {review.byUser && <Link to={`/user-details/${review.byUser._id}`}>
-                {review.byUser.fullname}
+              {review?.byUser && <Link to={`/user-details/${review?.byUser._id}`}>
+                {review?.byUser.fullname}
               </Link>}
-              
+
             </p>
             <hr />
           </li>
@@ -81,7 +80,6 @@ export function ReviewApp() {
           ></textarea>
           <button>Add</button>
         </form>} */}
-      <hr />
     </div>
   )
 }

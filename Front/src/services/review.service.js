@@ -52,5 +52,5 @@ console.log('reviewToAdd:', reviewToAdd)
   // reviewToAdd.byUser.score += 10
   await userService.update(reviewToAdd.byUser)
   // const addedReview = await storageService.post('review', reviewToAdd)
-  return addedReview
+  return reviewToAdd
 }

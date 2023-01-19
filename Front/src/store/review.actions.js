@@ -24,9 +24,10 @@ export async function loadReviews() {
 }
 
 export async function addReview(review) {
-  console.log('review:', review)
+ 
   try {
     const addedReview = await reviewService.add(review)
+    console.log('review:asdsadasdasdsadsadsadsadsad', addedReview)
     store.dispatch(getActionAddReview(addedReview))
     // const { score } = addedReview.byUser
     // store.dispatch({ type: 'SET_SCORE', score })

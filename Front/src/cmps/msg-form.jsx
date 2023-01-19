@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react"
 import Select from "react-select";
 import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
+import { socketService, SOCKET_EMIT_SEND_MSG } from "../services/socket.service";
 
 export function MsgForm({ msg, setMsg, addToyMsg }) {
 
@@ -19,6 +20,11 @@ export function MsgForm({ msg, setMsg, addToyMsg }) {
         setMsg(prevMsg => {
             return { ...prevMsg, [field]: value }
         })
+    }
+
+    function onSubmit() {
+        
+        addToyMsg(msg)
     }
 
     return <Formik
@@ -42,7 +48,7 @@ export function MsgForm({ msg, setMsg, addToyMsg }) {
                     <span>{errors.txt}</span>
                 ) : null}
 
-                <button onClick={addToyMsg}>Add Toy Msg</button>
+                <button onClick={onSubmit}>Add Toy Msg</button>
             </Form>
         )}
     </Formik>

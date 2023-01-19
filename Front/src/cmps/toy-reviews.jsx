@@ -15,7 +15,6 @@ export function ToyReviews({ toy }) {
     function getToyReviews() {
         return reviews.filter(review => review.aboutToy._id === toy._id)
     }
-
     return <section className="toy-reviews">
         {reviews && <ul className="review-list">
             {getToyReviews().map(review => (
