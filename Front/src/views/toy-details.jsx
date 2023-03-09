@@ -65,7 +65,7 @@ export function ToyDetails() {
         addMsg(msgFromBack)
         showSuccessMsg(`Msg Added, id:${msgFromBack.id}`)
     }
-
+    
     async function removeToyMsg(msgId) {
         const removedMsg = await toyService.onRemoveToyMsg(toyId, msgId)
         socketService.emit(SOCKET_EMIT_REMOVE_MSG, removedMsg)

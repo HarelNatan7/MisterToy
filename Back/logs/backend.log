@@ -2009,3 +2009,127 @@
 17.1.2023, 10:08:56 - INFO - New connected socket [id: gUicIwwFWQTQKDqBAAAX] 
 17.1.2023, 10:20:05 - INFO - Socket disconnected [id: undefined] 
 17.1.2023, 10:20:07 - INFO - Socket disconnected [id: undefined] 
+6.2.2023, 17:34:43 - INFO - Server is running on port: 3030 
+6.2.2023, 17:34:59 - INFO - Req was made 
+6.2.2023, 17:34:59 - DEBUG - Getting toys 
+6.2.2023, 17:34:59 - INFO - New connected socket [id: 8gsdYaSiFaLZsUKbAAAB] 
+6.2.2023, 17:40:55 - INFO - Req was made 
+6.2.2023, 17:40:55 - DEBUG - Getting toys 
+6.2.2023, 17:42:19 - INFO - Socket disconnected [id: undefined] 
+6.2.2023, 17:42:19 - INFO - New connected socket [id: iWvxOFDKLQdM4fqLAAAD] 
+6.2.2023, 17:42:25 - INFO - Socket disconnected [id: undefined] 
+6.2.2023, 17:42:25 - INFO - New connected socket [id: DrKj8YaloObPWbicAAAF] 
+6.2.2023, 17:42:39 - INFO - Socket disconnected [id: undefined] 
+6.2.2023, 17:42:39 - INFO - New connected socket [id: QHxOBG244uFjdRYKAAAH] 
+6.2.2023, 17:42:46 - INFO - Socket disconnected [id: undefined] 
+6.2.2023, 17:42:46 - INFO - New connected socket [id: MjbhoWXYCtbATjCvAAAJ] 
+6.2.2023, 17:42:49 - INFO - Socket disconnected [id: undefined] 
+6.2.2023, 17:43:15 - INFO - New connected socket [id: y3Pt9K9NawLzoR2rAAAL] 
+6.2.2023, 17:43:51 - INFO - Req was made 
+6.2.2023, 17:43:51 - DEBUG - Getting toys 
+6.2.2023, 17:44:14 - INFO - Req was made 
+6.2.2023, 17:44:14 - DEBUG - Getting toys 
+6.2.2023, 17:44:52 - INFO - Socket disconnected [id: undefined] 
+6.2.2023, 17:44:52 - DEBUG - Getting toys 
+6.2.2023, 17:44:52 - INFO - Req was made 
+6.2.2023, 17:44:52 - INFO - New connected socket [id: 2PXrejlFi2d84w_6AAAN] 
+6.2.2023, 17:45:51 - INFO - Req was made 
+6.2.2023, 17:45:51 - DEBUG - Getting toys 
+6.2.2023, 17:46:08 - INFO - Req was made 
+6.2.2023, 17:46:08 - DEBUG - Getting toys 
+6.2.2023, 17:46:28 - DEBUG - Getting toys 
+6.2.2023, 17:46:28 - INFO - Req was made 
+6.2.2023, 17:46:52 - INFO - Req was made 
+6.2.2023, 17:46:52 - DEBUG - Getting toys 
+6.2.2023, 17:47:52 - INFO - Socket disconnected [id: undefined] 
+6.2.2023, 17:47:52 - INFO - Req was made 
+6.2.2023, 17:47:52 - DEBUG - Getting toys 
+6.2.2023, 17:47:52 - INFO - New connected socket [id: BO-9oQNVBbIDUGH_AAAP] 
+6.2.2023, 17:50:29 - INFO - Req was made 
+6.2.2023, 17:50:29 - DEBUG - Getting toys 
+6.2.2023, 17:50:33 - INFO - Socket disconnected [id: undefined] 
+6.2.2023, 17:50:33 - INFO - Req was made 
+6.2.2023, 17:50:33 - DEBUG - Getting toys 
+6.2.2023, 17:50:33 - INFO - New connected socket [id: WCiQQJ69bt5BgOsBAAAR] 
+6.2.2023, 18:09:29 - DEBUG - Getting toys 
+6.2.2023, 18:09:29 - INFO - Req was made 
+6.2.2023, 18:09:31 - INFO - Socket disconnected [id: undefined] 
+6.2.2023, 18:09:32 - INFO - Req was made 
+6.2.2023, 18:09:32 - DEBUG - Getting toys 
+6.2.2023, 18:09:32 - INFO - New connected socket [id: -Kszf5Z1kr92NzQUAAAT] 
+6.2.2023, 21:58:11 - INFO - Socket disconnected [id: undefined] 
+9.3.2023, 15:47:31 - INFO - Server is running on port: 3030 
+9.3.2023, 15:48:44 - INFO - Req was made 
+9.3.2023, 15:48:44 - DEBUG - Getting toys 
+9.3.2023, 15:48:44 - INFO - New connected socket [id: V19Sh_99LgnqA46QAAAB] 
+9.3.2023, 15:48:53 - INFO - Req was made 
+9.3.2023, 15:48:53 - DEBUG - Getting toys 
+9.3.2023, 15:48:54 - INFO - Req was made 
+9.3.2023, 15:48:54 - DEBUG - Getting toys 
+9.3.2023, 15:49:13 - INFO - Socket disconnected [id: undefined] 
+9.3.2023, 15:49:13 - DEBUG - Getting toys 
+9.3.2023, 15:49:13 - INFO - Req was made 
+9.3.2023, 15:49:13 - INFO - New connected socket [id: 4yLFL0yP-QKCjCYJAAAD] 
+9.3.2023, 15:49:14 - INFO - Req was made 
+9.3.2023, 15:49:14 - DEBUG - Getting toys 
+9.3.2023, 15:49:15 - INFO - Req was made 
+9.3.2023, 15:49:15 - DEBUG - Getting toys 
+9.3.2023, 15:49:22 - INFO - Req was made 
+9.3.2023, 15:49:22 - DEBUG - Getting toys 
+9.3.2023, 15:49:23 - INFO - Req was made 
+9.3.2023, 15:49:23 - DEBUG - Getting toys 
+9.3.2023, 15:49:52 - INFO - Socket disconnected [id: undefined] 
+9.3.2023, 15:49:52 - INFO - Req was made 
+9.3.2023, 15:49:52 - DEBUG - Getting toys 
+9.3.2023, 15:49:52 - INFO - New connected socket [id: TUVAIU4g_KD3Vob8AAAF] 
+9.3.2023, 15:49:53 - INFO - Req was made 
+9.3.2023, 15:49:53 - DEBUG - Getting toys 
+9.3.2023, 15:49:55 - INFO - Req was made 
+9.3.2023, 15:49:55 - DEBUG - Getting toys 
+9.3.2023, 15:50:35 - INFO - Req was made 
+9.3.2023, 15:50:39 - INFO - Socket disconnected [id: undefined] 
+9.3.2023, 15:50:54 - INFO - Server is running on port: 3030 
+9.3.2023, 15:52:30 - INFO - Req was made 
+9.3.2023, 15:52:30 - DEBUG - Getting toys 
+9.3.2023, 15:52:30 - INFO - New connected socket [id: NgkrnIN5o2uuTnd9AAAB] 
+9.3.2023, 15:53:08 - INFO - Server is running on port: 3001 
+9.3.2023, 15:54:02 - INFO - Server is running on port: 3030 
+9.3.2023, 15:54:02 - INFO - New connected socket [id: ftc3ntwYH5T5qFPDAAAB] 
+9.3.2023, 15:54:11 - INFO - Socket disconnected [id: undefined] 
+9.3.2023, 15:59:10 - INFO - Server is running on port: 3030 
+9.3.2023, 16:00:41 - INFO - Req was made 
+9.3.2023, 16:00:41 - DEBUG - Getting toys 
+9.3.2023, 16:00:41 - INFO - New connected socket [id: 1r_fZNCKdYI2S8igAAAB] 
+9.3.2023, 16:00:43 - INFO - Req was made 
+9.3.2023, 16:00:43 - DEBUG - Getting toys 
+9.3.2023, 16:00:44 - INFO - Req was made 
+9.3.2023, 16:00:44 - DEBUG - Getting toys 
+9.3.2023, 16:00:53 - INFO - Req was made 
+9.3.2023, 16:00:55 - INFO - Req was made 
+9.3.2023, 16:00:55 - DEBUG - Getting toys 
+9.3.2023, 16:00:59 - INFO - Req was made 
+9.3.2023, 16:00:59 - DEBUG - Getting toys 
+9.3.2023, 16:01:00 - INFO - Req was made 
+9.3.2023, 16:01:00 - DEBUG - Getting toys 
+9.3.2023, 16:01:03 - INFO - Req was made 
+9.3.2023, 16:01:12 - INFO - Req was made 
+9.3.2023, 16:01:12 - DEBUG - Getting toys 
+9.3.2023, 16:01:12 - DEBUG - Getting toys 
+9.3.2023, 16:01:12 - INFO - Req was made 
+9.3.2023, 16:02:53 - INFO - Socket disconnected [id: undefined] 
+9.3.2023, 16:02:54 - INFO - Req was made 
+9.3.2023, 16:02:54 - DEBUG - Getting toys 
+9.3.2023, 16:02:54 - INFO - New connected socket [id: o8nRzdg6RckBHhokAAAD] 
+9.3.2023, 16:02:54 - INFO - Req was made 
+9.3.2023, 16:02:54 - DEBUG - Getting toys 
+9.3.2023, 16:03:37 - DEBUG - Getting toys 
+9.3.2023, 16:03:37 - INFO - Req was made 
+9.3.2023, 16:03:51 - DEBUG - auth.service - signup with username: harel, fullname: Harel Natan 
+9.3.2023, 16:03:51 - DEBUG - auth.route - new account created: {"username":"harel","password":"$2b$10$WA0AFu6Z9k1753XkKzVwyupJ/k/mns9fU2fvpufjj01d9l93d9zhC","fullname":"Harel Natan","score":0,"_id":"6409e747007c8e3f7037c6c1"} 
+9.3.2023, 16:03:51 - DEBUG - auth.service - login with username: harel 
+9.3.2023, 16:03:51 - INFO - User login:  | {"_id":"6409e747007c8e3f7037c6c1","username":"harel","fullname":"Harel Natan","score":0} 
+9.3.2023, 16:03:54 - INFO - Req was made 
+9.3.2023, 16:03:54 - DEBUG - Getting toys 
+9.3.2023, 16:03:54 - INFO - Req was made 
+9.3.2023, 16:03:54 - DEBUG - Getting toys 
+9.3.2023, 16:08:51 - INFO - Socket disconnected [id: undefined] 

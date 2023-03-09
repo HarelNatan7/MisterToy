@@ -4,7 +4,6 @@ import { Doughnut, PolarArea } from 'react-chartjs-2';
 
 ChartJS.register(RadialLinearScale, ArcElement, Tooltip, Legend);
 
-
 export function MyChartA({ dataMap }) {
 
     const data = {
@@ -36,7 +35,7 @@ export function MyChartA({ dataMap }) {
         ],
     };
     return (
-        <div style={{ width: '40%', margin: 'auto' }}>
+        <div style={{ width: '350px', margin: 'auto' }}>
             <h1>Our Amounts</h1>
             <Doughnut data={data} />
         </div>

@@ -11,6 +11,10 @@
     flex-direction: column;
     text-align: center;
     gap: 15px;
+    img {
+        margin: 0 auto;
+        width: 50%;
+    }
 }
 
 .toy-preview h5 {
